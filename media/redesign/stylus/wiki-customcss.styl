@@ -998,7 +998,7 @@ ul.card-grid {
 }
 ul.card-grid li {
     margin-bottom: 25px;
-    padding: 10px;
+    padding: 15px;
 }
 @media only screen and (min-width:760px) {
     ul.card-grid {
@@ -2005,6 +2005,13 @@ li.download-box {
 
 .download-desc {
     padding-bottom: 3em;
+}
+
+.download-button .download-box {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    vendorize(transform, translate(-50%, 0));
 }
 
 .download-button {
